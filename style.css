@@ -6,8 +6,27 @@ body{background-color: black;
 }
 
 button{
+    margin: 20px;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: yellow;
+    border-radius: 20px;
+    font-size: large;
+    font-style: oblique;
     
+}
 
-
-
+.card{
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
 }
